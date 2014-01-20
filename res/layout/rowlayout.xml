@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="23dp"
+    android:background="#FFFFFF" >
+
+    <TextView
+        android:id="@+id/textViewDiceTotalListView"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:layout_marginLeft="8dp"
+        android:textColor="#A6D785"
+        android:textSize="26px"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewBetAmountListView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Bet 10"
+        android:textSize="26px"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Won 10.02"
+        android:textSize="26px"
+        android:textStyle="bold" >
+    </TextView>
+
+</LinearLayout>
